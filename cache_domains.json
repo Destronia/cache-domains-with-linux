@@ -73,6 +73,11 @@
 			"domain_files": ["pathofexile.txt"]
 		},
 		{
+			"name": "redhat",
+			"description": "CDN for Red Hat Linux distributions",
+			"domain_files": ["redhat.txt"]
+		},
+		{
 			"name": "renegadex",
 			"description": "CDN for Renegade X",
 			"domain_files": ["renegadex.txt"]
