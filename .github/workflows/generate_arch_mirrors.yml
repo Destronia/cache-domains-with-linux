@@ -9,6 +9,8 @@ jobs:
   generate_arch_mirrors:
     runs-on: ubuntu-latest
     name: Generate Arch Mirror List
+    env:
+      GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
     steps:
       - name: Checkout
@@ -23,6 +25,7 @@ jobs:
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
 
       - name: Push to master branch
+        if: success()
         uses: Automattic/action-commit-to-branch@master
         with:
           branch: "master"
