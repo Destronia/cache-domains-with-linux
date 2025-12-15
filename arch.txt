@@ -298,6 +298,7 @@ mirror.ufam.edu.br
 mirror.ufro.cl
 mirror.ufscar.br
 mirror.umd.edu
+mirror.us.cdn-perfprod.com
 mirror.vpsfree.cz
 mirror.vtti.vt.edu
 mirror.wane.kr
